@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    
+
     environment {
         DOCKER_IMAGE = 'spring-pet-clinic'
         DOCKER_TAG = 'latest'
@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/MennaOm/DEPI_DevOps_Tasks/tree/main/jenkins'
+                git 'https://github.com/MennaOm/Jenkins-Spring-boot'
             }
         }
                 
