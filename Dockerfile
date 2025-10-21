@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-alpine
+FROM openjdk:25-jdk-slim
 WORKDIR /app
 
 ARG JAR_FILE=target/spring-petclinic-*.jar
